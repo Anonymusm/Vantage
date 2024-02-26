@@ -1,10 +1,18 @@
 :root {
     --font-family: "Open Sans", sans-serif;
     --second-family: "Teko", sans-serif;
+    --black-bg: #141414;
 }
 
 .container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+}
+/* header */
+header {
+    background-color: var(--black-bg);
+    /* height: 70px; */
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
