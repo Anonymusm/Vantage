@@ -1,6 +1,9 @@
+    /* --font-family: "Open Sans",
+    sans-serif;
+    --second-family: "Teko",
+    sans-serif; */
+
 :root {
-    --font-family: "Open Sans", sans-serif;
-    --second-family: "Teko", sans-serif;
     --black-bg: #141414;
 }
 
