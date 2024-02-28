@@ -64,6 +64,7 @@ a {
 }
 /* header */
 header {
+    max-width: 1440px;
     background-color: var(--main-color);
     /* height: 70px; */
     padding-top: 18px;
@@ -74,7 +75,16 @@ header {
     align-items: center;
 }
 .logo-link {
-
+        position: absolute;
+        top: 0;
+        left: 68px;
+        background-color: #99823D;
+        width: 326px;
+        height: 136px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        
 }
 .logo-icon {
 
