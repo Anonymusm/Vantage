@@ -4,9 +4,16 @@
     sans-serif; */
 
 :root {
-    --black-bg: #141414;
+    --main-color: #141414;
+    --white:#FFF;
+    --accent-color:#99823D;
+    --add-color:#3D3D3D;
 }
-
+body {
+    font-weight: 400;
+    font-family: var(--font-family);
+    font-size: 11px;
+}
 h1,
 h2,
 h3,
@@ -57,8 +64,55 @@ a {
 }
 /* header */
 header {
-    background-color: var(--black-bg);
+    background-color: var(--main-color);
     /* height: 70px; */
     padding-top: 18px;
     padding-bottom: 18px;
+}
+.header-position {
+    display: flex;
+    align-items: center;
+}
+.logo-link {
+
+}
+.logo-icon {
+
+}
+.slogan-wrapper {
+    display: flex;
+}
+.header-slogan {
+    font-family: var(--font-family);
+font-size: 9px;
+line-height: 1.7;
+text-align: center;
+color: rgba(255, 255, 255, 0.75);
+}
+.header-slogan-span {
+font-family: var(--font-family);
+font-size: 10px;
+line-height: 1.53;
+text-align: center;
+color: #fff;
+}
+.slogan-icon {
+
+}
+.navigation {
+
+}
+.nav-list {
+    display: flex;
+}
+.nav-item {
+
+}
+.nav-link {
+font-family: var(--font-family);
+font-size: 11px;
+line-height: 3.09;
+letter-spacing: 0.25em;
+text-transform: uppercase;
+color: #fff;
 }
